@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 import apiRequest from './apiRequest';
 
 function App() {
-  const API_URL = 'http://localhost:3500/items'
+  const API_URL = 'https://repoforgrocerylistnetflify.onrender.com'
 
   const [items, setItems] = useState([]);
 
